@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300i|Oswald:600');
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Oswald:600');
 
 body, html {
     margin: 0;
@@ -28,5 +28,5 @@ body, html {
   }
 
   main {
-      max-width:1280px;
+    max-width: 1280px;
   }
