@@ -9,13 +9,26 @@ body, html {
   
   body {
     font-family: Lato;
-    font-size: 12px;
-    color: #424242;
+    font-size: 16px;
+    background-color: #F5F1F1;
   }
   
   h1, h2, h3, h4, h5 {
     margin: 0; 
   }
+
+  h2 {
+      font-family: Oswald;
+      font-size: 30px;
+      color: #F1F5F3;
+      background-color: black;
+  }
+  h3 {
+    font-family: Oswald;
+    font-size: 24px;
+    color: #F1F5F3;
+    background-color: black;
+}
   
   header, nav, footer, section, article, div {
     box-sizing: border-box;
@@ -29,4 +42,116 @@ body, html {
 
   main {
     max-width: 1280px;
+    margin: auto;
+  }
+
+  .bolding {
+      font-weight: bold;
+  }
+
+  .sound {
+    position: relative;
+    width: 100%;
+    margin: auto;
+  }
+
+  .audioimages {
+    position: relative;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    padding: 1rem;
+    border: 2rem;
+    margin: auto;
+  }
+
+  .audioimages img {
+    width: 20%;
+  }
+
+  .audiotext {
+    position: relative;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    padding: 1rem;
+    border: 2rem;
+    margin: auto;
+  }
+
+  .soundtext {
+    width: 50%;
+  }
+
+  .socialproof {
+    width: 50%;
+  }
+
+  .projects li {
+    margin: 10% 10%;
+  }
+  
+  .contact {
+    position: relative;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    padding: 1rem;
+    border: 2rem;
+    margin: auto;
+  }
+  
+  .contact img {
+    position: relative;
+    display: block;
+    width: 18%;
+    padding: 7%;
+  }
+
+  .projects {
+      background-color: #F7C;
+  }
+
+  .projects ul{
+    font-size: 18px;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+  }
+
+  .projects li{
+    margin: 1rem 0;
+  }
+
+  .footinfo {
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0;
+    border: 0;
+    margin: auto;
+  }
+
+  .footinfo img {
+    position: relative;
+    display: block;
+    height: 50%;
+    width: 50%;
+  }
+
+  .footinfo ul {
+    z-index: 1;
+    position: absolute;
+    top: 65%;
+    left: 3%;
+    width: 60%;
+    font-family: oswald;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    background: rgba(0, 0, 0, 0.95);
   }
