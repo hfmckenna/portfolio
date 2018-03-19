@@ -8,37 +8,37 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <div class="logocontainer">
-      <h1 class="headertext">Hugh Francis McKenna</h1>
+  <header class="navheader">
+    <nav class="navtext">
+      <div><a href="">Work</a></div>
+      <div><a href="">Info</a></div>
+      <div><a href="">Contact</a></div>
+    </nav>
+    <nav class="logocontainer">
+      <span id="logotext">Hugh Francis McKenna</span>
       <img width="90px" height="90px" src="img/vectors/logo.svg" alt="" id="logoimg">
-    </div>
-    <nav>
-      <ul>
-        <li><a href="">Work</a></li>
-        <li><a href="">Info</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
     </nav>
   </header>
   <main>
     <section class="description">
-      <article>
-        <p><img height="50px" src="img/vectors/pint.svg" alt="">Ecommerce developer from Scotland. Moved to Liverpool for fun times Sound Engineering at LIPA, recording freak rock bands and making<img height="50px" src="img/vectors/myrtlelogo.svg" alt=""></p>
+      <article class="maindescription">
+        <p>Ecommerce developer from Scotland. Moved to Liverpool for <span id="strikethrough">fun times</span><img width="3%" src="img/vectors/pint.svg" alt=""> Sound Engineering at LIPA, recording <span id="impacting">freak rock</span> bands and making <img width="10%" src="img/vectors/myrtlelogo.svg" alt=""></p>
         <p>Work on analytics & web dev at Sound Affects Music. Fluent in a range of acronyms/initialisms/abbreviations from the DOM to EQ & EBITDA...</p>
       </article>
     </section>
     <section class="career">
-      <article>
+      <article class="dev">
         <h2>2017 - 2018 / Web Dev & Business Analysis</h2>
         <p>Have been studying online using Free Code Camp since 2017 and was selected for the Google Front End Development scholarship in 2018.</p>
         <p>Working for a small company my role varies and I have built reporting software with Node on a VPS, helped integrate platforms using APIs and designed a site for a new venture for the company, based on my business proposal.</p>
-        <img width="70.8px" height="100px" src="img/vectors/css3.svg" alt="">
-        <img width="70.8px" height="100px" src="img/vectors/html5.svg" alt="">
-        <img width="100px" height="100px" src="img/vectors/javascript.svg" alt="">
-        <img width="163.3px" height="100px" src="img/vectors/node.svg" alt="">
+        <div class="careerimages">
+          <img width="70.8px" height="100px" src="img/vectors/css3.svg" alt="">
+          <img width="70.8px" height="100px" src="img/vectors/html5.svg" alt="">
+          <img width="100px" height="100px" src="img/vectors/javascript.svg" alt="">
+          <img width="163.3px" height="100px" src="img/vectors/node.svg" alt="">
+        </div>
       </article>
-      <article>
+      <article class="contentroles">
         <h2>2011 - 2017 / Content</h2>
         <p>I started in the "glory days" before Google's Penguin algorithm, writing blogs for Dolphin Music centred around high volume keywords.</p>
         <p>Then I became content manager for PMT Online, hiring my own little team of writers to do the blogs & product content while I focused on maintaining a legacy MySQL database, performing SEO audits and assisting an agency in migrating our Magento site.</p>
@@ -54,17 +54,19 @@
           <img src="img/raster/photos/tn_cardamonepedal.jpg" alt="">
           <img src="img/raster/photos/tn_gensunsflower.jpg" alt="">
         </div>
-        <article class="bodytext">
-          <p>I'm an avid maker, creating custom guitar pedals for over 10 years and previously working as a sound engineer.</p>
-          <p>It would be fair to say I found my niche working with experimental, anarchic & often bloody loud rock bands.</p>
-          <p>I've still got chops when it comes to setting up a coincident stereo pair and editing in Pro Tools.</p>
-          <p>Any bands or podcasters who need some specialist audio knowledge for their project are very welcome to get in touch.</p>
-        </article>
-        <article class="socialproof">
-          <p>Pedal people - Got a fantastic big cheese clone from @MyrtlePedals . Sounds like - guitar on 'without msg I am nothing' - Future Of The Left</p>
-          <p>Check out TIL friend @MyrtlePedals he makes some sick noise come out - Joe Cardamone</p>
-          <p>Yo @MyrtlePedals, your All Seeing Ei is #SUPERPHAT. So #Nasty! - Wilsoni Tha Funk Masta</p>
-        </article>
+        <div class="audiotext">
+          <article class="bodytext">
+            <p>I'm an avid maker, creating custom guitar pedals for over 10 years and previously working as a sound engineer.</p>
+            <p>It would be fair to say I found my niche working with experimental, anarchic & often bloody loud rock bands.</p>
+            <p>I've still got chops when it comes to setting up a coincident stereo pair and editing in Pro Tools.</p>
+            <p>Any bands or podcasters who need some specialist audio knowledge for their project are very welcome to get in touch.</p>
+          </article>
+          <article class="socialproof">
+            <p>Pedal people - Got a fantastic big cheese clone from @MyrtlePedals . Sounds like - guitar on 'without msg I am nothing' - Future Of The Left</p>
+            <p>Check out TIL friend @MyrtlePedals he makes some sick noise come out - Joe Cardamone</p>
+            <p>Yo @MyrtlePedals, your All Seeing Ei is #SUPERPHAT. So #Nasty! - Wilsoni Tha Funk Masta</p>
+          </article>
+      </div>
       </section>
       <section class="details">
           <article class="projects">
@@ -87,7 +89,7 @@
       <footer class="footinfo">
         <ul>
           <li>Have also appeared on TV cooking show My Kitchen Rules</li>
-          <li>Loves baking Scottish treats at market stalls</li>
+          <li>Love baking Scottish treats at market stalls</li>
           <li>Has bagged Snowdon, a dozen Wainwrights & 3 Munros so far...</li>
         </ul>
         <img src="img/raster/photos/mkrclose.jpg" alt="" srcset="">
