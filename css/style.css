@@ -1,266 +1,278 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:600');
 
 body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-  }
-  
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    background-color: #F5F1F1;
-  }
-  
-  h1, h2, h3, h4, h5 {
-    margin: 0; 
-  }
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
 
-  h2 {
-      font-family: Oswald;
-      font-size: 30px;
-      color: #F1F5F3;
-      background-color: black;
-  }
-  h3 {
-    font-family: Oswald;
-    font-size: 24px;
-    color: #F1F5F3;
-    background-color: black;
-  }
-  
-  header, nav, footer, section, article, div {
-    box-sizing: border-box;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F5F1F1;
+}
 
-  main {
-    max-width: 1280px;
-    margin: auto;
-  }
+h1, h2, h3, h4, h5 {
+  margin: 0; 
+}
 
-  img, embed, object, video {
-    max-width: 100%;
-  }
+h2 {
+  font-family: Oswald;
+  font-size: 1.75rem;
+  color: #F1F5F3;
+  background-color: black;
+  padding-left: 5px;
+}
 
-  .bolding {
-    font-weight: bold;
-  }
+h3 {
+  font-family: Oswald;
+  font-size: 1.5rem;
+  color: #F1F5F3;
+  background-color: black;
+  padding: 5px;
+}
 
-  .main-nav {
-    display: -webkit-flex;
-    display: flex;
-  }
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
 
-  .main-nav #navright {
-    margin-right: auto;
-  }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-  .main-nav a {
-    margin: 10px;
-    border-radius: 5px;
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    color: black;
-  }
+main {
+  max-width: 1280px;
+  margin: auto;
+}
 
-  .main-nav .links {
-    margin-left: auto;
-    font-family: Oswald;
-    font-size: 24px;
-    margin-top: 40px;
-    text-decoration-style: double;
+img, embed, object, video {
+  max-width: 100%;
+}
 
-  }
+.bolding {
+  font-weight: bold;
+}
 
-  .main-nav .logo {
-    margin-right: auto;
-  }
+.main-nav {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  max-width: 100%;
+}
 
-  .main-nav .logotext {
-    margin-left: 40%;
-    margin-top: 10px;
-    font-family: Oswald;
-    font-size: 18px;
-  }
+.main-nav #navright {
+  margin-right: auto;
+}
 
-  .main-nav img {
-    width: 90px;
-    height: 90px;
-  }
+.main-nav a {
+  margin: 5px;
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
 
-  #strikethrough {
-    text-decoration: line-through;
-  }
+.main-nav .links {
+  margin-left: auto;
+  font-family: Oswald;
+  font-size: 1.5rem;
+  margin-top: 40px;
+  text-decoration-style: double;
+}
 
-  #impacting {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
+.main-nav .logo {
+  margin-right: 10%;
+}
 
-  .description {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 48px;
-  }
+.main-nav .logotext {
+  margin-left: 50%;
+  margin-top: 10px;
+  font-family: Oswald;
+  font-size: 1.1rem;
+}
 
-  .career {
-    position: relative;
-    width: 100%;
-    position: relative;
-    flex-direction: row;
-    width: 90%;
-    height: 100%;
-    display: flex;
-    margin: auto;
-    padding: 1rem;
-    border: 2rem;
-  }
+.main-nav img {
+  min-width: 90px;
+}
 
-  .careerimages {
-    position: relative;
-    flex-direction: row;
-    width: 100%;
-    display: flex;
-    margin: auto;
-  }
+#strikethrough {
+  text-decoration: line-through;
+}
 
-  .careerimages img{
-    margin: auto;
-    width: 15%;
-    height: 100%;
-  }
+#impacting {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
-  .dev {
-    width:50%;
+#pint {
+  width: 2rem;
+  height: 100%;
+}
+
+#myrtle {
+  width: 6rem;
+  height: 100%;
+}
+
+.description {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.5rem;
+}
+
+.career {
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  padding: 16px;
+  border: 32px;
+}
+
+.careerimages {
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+
+.careerimages img{
+  margin: auto;
+  width: 10%;
+  height: 100%;
+}
+
+.dev {
+  width: 80%;
+  background-color: #F7C;
+  margin: auto;
+}
+
+.dev p {
+  margin: 8px;
+  padding: 4px;
+}
+
+.contentroles {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  background-color: #39D;
+}
+
+.contentroles p {
+  margin: 8px;
+  padding: 4px;
+}
+
+.sound {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.audioimages {
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border: 32px;
+  margin: auto;
+}
+
+.audioimages img {
+  width: 20%;
+  height: 100%;
+  margin: auto;
+}
+
+.audiotext {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+}
+
+.bodytext {
+  width: 50%;
+  padding: 16px;
+}
+
+.socialproof {
+  width: 50%;
+  padding: 16px;
+  font-family: Oswald;
+}
+
+.projects li {
+  margin: 10% 10%;
+}
+
+.contact {
+  position: relative;
+  flex-direction: row;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  padding: 16px;
+  border: 32px;
+  margin: auto;
+}
+
+.contact img {
+  position: relative;
+  display: block;
+  width: 18%;
+  padding: 7%;
+}
+
+.projects {
     background-color: #F7C;
-  }
+}
 
-  .dev p {
-    margin: 0.5rem;
-    padding: 0.2rem;
-  }
+.projects ul{
+  font-size: 18px;
+  margin: 16px 0;
+  padding: 8px 16px;
+}
 
-  .contentroles {
-    width:50%;
-    background-color: #39D;
-  }
+.projects li{
+  margin: 16px 0;
+}
 
-  .contentroles p {
-    margin: 0.5rem;
-    padding: 0.2rem;
-  }
+.footinfo {
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 0;
+  border: 0;
+  margin: auto;
+}
 
-  .sound {
-    position: relative;
-    width: 100%;
-    margin: auto;
-  }
+.footinfo img {
+  position: relative;
+  display: block;
+  height: 50%;
+  width: 50%;
+}
 
-  .audioimages {
-    position: relative;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    padding: 1rem;
-    border: 2rem;
-    margin: auto;
-  }
-
-  .audioimages img {
-    width: 20%;
-    height: 100%;
-    margin: auto;
-  }
-
-  .audiotext {
-    position: relative;
-    width: 80%;
-    height: 100%;
-    display: flex;
-    margin: auto;
-  }
-
-  .bodytext {
-    width: 50%;
-    padding: 1rem;
-  }
-
-  .socialproof {
-    width: 50%;
-    padding: 1rem;
-    font-family: Oswald;
-  }
-
-  .projects li {
-    margin: 10% 10%;
-  }
-  
-  .contact {
-    position: relative;
-    flex-direction: row;
-    width: 80%;
-    height: 100%;
-    display: flex;
-    padding: 1rem;
-    border: 2rem;
-    margin: auto;
-  }
-  
-  .contact img {
-    position: relative;
-    display: block;
-    width: 18%;
-    padding: 7%;
-  }
-
-  .projects {
-      background-color: #F7C;
-  }
-
-  .projects ul{
-    font-size: 18px;
-    margin: 1rem 0;
-    padding: 0.5rem 1rem;
-  }
-
-  .projects li{
-    margin: 1rem 0;
-  }
-
-  .footinfo {
-    position: relative;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    padding: 0;
-    border: 0;
-    margin: auto;
-  }
-
-  .footinfo img {
-    position: relative;
-    display: block;
-    height: 50%;
-    width: 50%;
-  }
-
-  .footinfo ul {
-    z-index: 1;
-    position: absolute;
-    top: 65%;
-    left: 3%;
-    width: 60%;
-    font-family: oswald;
-    font-size: 20px;
-    text-align: left;
-    color: white;
-    background: rgba(0, 0, 0, 0.95);
-  }
+.footinfo ul {
+  z-index: 1;
+  position: absolute;
+  top: 65%;
+  left: 3%;
+  width: 60%;
+  font-family: oswald;
+  font-size: 1.5rem;
+  text-align: left;
+  color: white;
+  background: rgba(0, 0, 0, 0.95);
+}

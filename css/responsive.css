@@ -1,0 +1,63 @@
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 14px;
+  }
+  .main-nav {
+    width: 100%;
+    margin: auto;
+    max-width: 100%;
+  }
+  .main-nav #navright {
+    margin-right: auto;
+  }
+  .main-nav .links {
+    margin: auto;
+    font-size: 1rem;
+    text-decoration-style: double;
+  }
+  .main-nav .logo {
+    margin-right: 10%;
+  }
+  .main-nav .logotext {
+    margin: auto;
+    font-size: 0.75rem;
+  }
+  .main-nav img {
+    min-width: 48px;
+  }
+  .career {
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+    padding: 0;
+    border: 0;
+  }
+  .contentroles {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .dev {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1199px) {
+  html {
+    font-size: 16px;
+  }
+  .contentroles {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .dev {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 18px;
+  }
+}
