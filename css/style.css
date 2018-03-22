@@ -214,7 +214,7 @@ img, embed, object, video {
   margin: 10% 10%;
 }
 
-.contact {
+.contact {  
   position: relative;
   flex-direction: row;
   width: 80%;
@@ -225,7 +225,18 @@ img, embed, object, video {
   margin: auto;
 }
 
-.contact img {
+.contactimages {
+  position: relative;
+  flex-direction: row;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  padding: 16px;
+  border: 32px;
+  margin: auto;
+}
+
+.contactimages img {
   position: relative;
   display: block;
   width: 18%;
@@ -237,7 +248,7 @@ img, embed, object, video {
 }
 
 .projects ul{
-  font-size: 18px;
+  font-size: 1.1rem;
   margin: 16px 0;
   padding: 8px 16px;
 }
