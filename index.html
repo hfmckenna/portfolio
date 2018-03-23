@@ -12,23 +12,25 @@
 </head>
 
 <body>
-  <nav>
-    <ul class="main-nav">
-      <input id="menuclick" type="checkbox">
-      <label for="menuclick">
-        <img id="hamburgerimg" src="img/vectors/hamburger.svg" alt="">
-      </label>
-      <div class="mobile-nav">
-        <p>
-          <a href="#career">WORK</a>
-        </p>
-        <p>
-          <a href="#info">INFO</a>
-        </p>
-        <p>
-          <a href="#contact">CONTACT</a>
-        </p>
-      </div>
+  <nav class="main-nav">
+
+    <input id="menuclick" type="checkbox">
+    <label for="menuclick">
+      <img id="hamburgerimg" src="img/vectors/hamburger.svg" alt="">
+    </label>
+    <div class="mobile-nav">
+      <p>
+        <a href="#career">WORK</a>
+      </p>
+      <p>
+        <a href="#info">INFO</a>
+      </p>
+      <p>
+        <a href="#contact">CONTACT</a>
+      </p>
+    </div>
+
+    <ul class="nav-list">
       <li class="links">
         <a href="#career">WORK</a>
       </li>
@@ -51,34 +53,33 @@
     </ul>
   </nav>
   <main>
-    <section class="description">
-      <article class="maindescription">
-        <p>Ecommerce developer from Scotland. Moved to Liverpool for
-          <span id="strikethrough">fun times</span>
-          <img id="pint" src="img/vectors/pint.svg" alt=""> Sound Engineering at LIPA, recording
-          <span id="impacting">freak rock</span> bands and making
-          <img id="myrtle" src="img/vectors/myrtlelogo.svg" alt="">
-        </p>
-        <p>Now I work on analytics & web dev at Sound Affects Music. Fluent in a range of acronyms & initialisms from the DOM
-          to EQ & EBITDA...</p>
-      </article>
-    </section>
+    <div class="description">
+      <p>Ecommerce developer from Scotland. Moved to Liverpool for
+        <span id="strikethrough">fun times</span>
+        <img id="pint" src="img/vectors/pint.svg" alt=""> Sound Engineering at LIPA, recording
+        <span id="impacting">freak rock</span> bands and making
+        <img id="myrtle" src="img/vectors/myrtlelogo.svg" alt="">
+      </p>
+      <p>Now I work on analytics & web dev at Sound Affects Music. Fluent in a range of acronyms & initialisms from the DOM
+        to EQ & EBITDA...</p>
+    </div>
     <section class="career" id="career">
+      <h2>Career</h2>
       <article class="dev">
-        <h2>2017 - 2018 / Web Dev & Analysis</h2>
+        <h3>2017 - 2018 / Web Dev & Analysis</h3>
         <p>Have been studying online using Free Code Camp since 2017 and was selected for the Google Front End Development scholarship
           in 2018.</p>
         <p>Working for a small company my role varies and I have built reporting software with Node on a VPS, helped integrate
           platforms using APIs and designed a site for a new venture for the company, based on my business proposal.</p>
-        <li class="careerimages">
+        <div class="careerimages">
           <img src="img/vectors/css3.svg" alt="CSS3 Icon">
           <img src="img/vectors/html5.svg" alt="HTML5 Icon">
           <img src="img/vectors/javascript.svg" alt="Javascript Icon">
           <img src="img/vectors/node.svg" alt="NodeJS Icon">
-        </li>
+        </div>
       </article>
       <article class="contentroles">
-        <h2>2011 - 2017 / Content</h2>
+        <h3>2011 - 2017 / Content</h3>
         <p>I started in the "glory days" before Google's Penguin algorithm, writing blogs for Dolphin Music centred around high
           volume keywords.</p>
         <p>Then I became content manager for PMT Online, hiring my own little team of writers to do the blogs & product content
@@ -91,29 +92,30 @@
     </section>
     <section class="sound">
       <h2>Sound Engineering</h2>
-      <li class="audioimages">
+      <div class="audioimages">
         <img src="img/raster/photos/tn_yokealbum.jpg" alt="">
         <img src="img/raster/photos/tn_mugstar.jpg" alt="">
         <img src="img/raster/photos/tn_eftmalbum.jpg" alt="">
         <img src="img/raster/photos/tn_cardamonepedal.jpg" alt="">
         <img src="img/raster/photos/gensunsflower.jpg" alt="">
-      </li>
-      <section class="audiotext">
-        <article class="bodytext">
+      </div>
+      <div class="audiotext">
+        <div class="bodytext">
           <p>I'm an avid maker, creating custom guitar pedals for over 10 years and previously working as a sound engineer.</p>
           <p>It would be fair to say I found my niche working with experimental, anarchic & often bloody loud rock bands.</p>
           <p>I've still got chops when it comes to setting up a coincident stereo pair and editing in Pro Tools.</p>
           <p>Any bands or podcasters who need some specialist audio knowledge for their project are very welcome to get in touch.</p>
-        </article>
-        <article class="socialproof">
+        </div>
+        <div class="socialproof">
           <p>Pedal people - Got a fantastic big cheese clone from @MyrtlePedals . Sounds like - guitar on 'without msg I am
             nothing' - Future Of The Left</p>
           <p>Check out TIL friend @MyrtlePedals he makes some sick noise come out - Joe Cardamone</p>
           <p>Yo @MyrtlePedals, your All Seeing Ei is #SUPERPHAT. So #Nasty! - Wilsoni Tha Funk Masta</p>
-        </article>
-      </section>
+          </div>
+      </div>
     </section>
     <section class="info" id="info">
+      <h2>More Info</h2>
       <article class="projects">
         <h3>Notable Web Projects</h3>
         <ul>
@@ -125,7 +127,8 @@
             channels. Performed content audits, SEO and worked with our agency to achieve goals.</li>
           <li>
             <span class="bolding">The Hut Group - </span>Managed a team that drove a 300% increase in Q4 revenue, translating content for international
-            sites.</li>
+            sites.
+          </li>
           <li>
             <span class="bolding">Professional Music Technology - </span>Managed a team of content creators, taking a low domain authority site
             and making it one of the top performers for organic in our industy. Also worked with an agency to migrate both
@@ -136,7 +139,7 @@
         </ul>
       </article>
       <article class="contact" id="contact">
-        <h3>Contact</h3>
+        <h2>Contact</h2>
         <div class="contactimages">
           <a href="https://twitter.com/MyrtlePedals" target="_blank">
             <img src="img/vectors/twitter.svg" alt="Twitter Contact">
@@ -161,4 +164,5 @@
     </footer>
   </main>
 </body>
+
 </html>

@@ -23,9 +23,9 @@ h5 {
 h2 {
   font-family: Oswald, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.75rem;
-  color: #EFE;
-  background-color: black;
-  padding-left: 5px;
+  color: black;
+  background-color: #FF75CA;
+  padding-left: 3px;
 }
 
 h3 {
@@ -68,10 +68,15 @@ video {
 }
 
 .main-nav {
-  display: -webkit-flex;
   display: flex;
-  margin: auto;
-  min-width: 100%;
+  flex-direction: row;
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .main-nav a {
@@ -82,6 +87,23 @@ video {
   color: black;
 }
 
+.mobile-nav {
+  font-size: 1rem;
+  font-family: Oswald, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 0;
+  visibility: hidden;
+  overflow: hidden;
+  display: none;
+  max-width: 50%;
+  z-index: 999;
+  max-height: 0;
+  text-decoration: underline;
+  transition: max-height .1s ease-in-out;
+  background-color: #F5F1F1;
+}
+
 .links {
   margin-left: auto;
   font-family: Oswald, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -90,19 +112,12 @@ video {
   text-decoration-style: double;
 }
 
-.main-nav .hamburger {
-  margin-left: auto;
-  margin-top: 40px;
-  display: none;
-}
-
 .logo {
-  margin-right: 10%;
-  display
+  margin-right: auto;
 }
 
 .logotext {
-  margin-left: 25%;
+  margin-left: 20%;
   margin-top: .3%;
   font-family: Oswald, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.1rem;
@@ -137,7 +152,7 @@ video {
 
 .career {
   position: relative;
-  width: 100%;
+  width: 80%;
   flex-direction: column;
   height: 100%;
   display: flex;
@@ -161,7 +176,7 @@ video {
 }
 
 .dev {
-  width: 80%;
+  width: 100%;
   background-color: #4AD;
   margin: auto;
 }
@@ -172,7 +187,7 @@ video {
 }
 
 .contentroles {
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-top: 30px;
   background-color: #E46;
