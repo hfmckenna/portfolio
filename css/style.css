@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:600');
-
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -12,27 +12,36 @@ body {
   background-color: #F5F1F1;
 }
 
-h1, h2, h3, h4, h5 {
-  margin: 0; 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
 }
 
 h2 {
-  font-family: Oswald;
+  font-family: Oswald, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.75rem;
-  color: #F1F5F3;
+  color: #EFE;
   background-color: black;
   padding-left: 5px;
 }
 
 h3 {
-  font-family: Oswald;
+  font-family: Oswald, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.5rem;
-  color: #F1F5F3;
+  color: #EFE;
   background-color: black;
   padding: 5px;
 }
 
-header, nav, footer, section, article, div {
+header,
+nav,
+footer,
+section,
+article,
+div {
   box-sizing: border-box;
 }
 
@@ -47,7 +56,10 @@ main {
   margin: auto;
 }
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
   max-width: 100%;
 }
 
@@ -58,13 +70,8 @@ img, embed, object, video {
 .main-nav {
   display: -webkit-flex;
   display: flex;
-  width: 100%;
   margin: auto;
-  max-width: 100%;
-}
-
-.main-nav #navright {
-  margin-right: auto;
+  min-width: 100%;
 }
 
 .main-nav a {
@@ -75,22 +82,29 @@ img, embed, object, video {
   color: black;
 }
 
-.main-nav .links {
+.links {
   margin-left: auto;
-  font-family: Oswald;
+  font-family: Oswald, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.5rem;
   margin-top: 40px;
   text-decoration-style: double;
 }
 
-.main-nav .logo {
-  margin-right: 10%;
+.main-nav .hamburger {
+  margin-left: auto;
+  margin-top: 40px;
+  display: none;
 }
 
-.main-nav .logotext {
-  margin-left: 50%;
-  margin-top: 10px;
-  font-family: Oswald;
+.logo {
+  margin-right: 10%;
+  display
+}
+
+.logotext {
+  margin-left: 25%;
+  margin-top: .3%;
+  font-family: Oswald, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.1rem;
 }
 
@@ -140,7 +154,7 @@ img, embed, object, video {
   margin: auto;
 }
 
-.careerimages img{
+.careerimages img {
   margin: auto;
   width: 10%;
   height: 100%;
@@ -148,7 +162,7 @@ img, embed, object, video {
 
 .dev {
   width: 80%;
-  background-color: #F7C;
+  background-color: #4AD;
   margin: auto;
 }
 
@@ -161,7 +175,7 @@ img, embed, object, video {
   width: 80%;
   margin: auto;
   margin-top: 30px;
-  background-color: #39D;
+  background-color: #E46;
 }
 
 .contentroles p {
@@ -207,14 +221,14 @@ img, embed, object, video {
 .socialproof {
   width: 50%;
   padding: 16px;
-  font-family: Oswald;
+  font-family: Oswald, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .projects li {
   margin: 10% 10%;
 }
 
-.contact {  
+.contact {
   position: relative;
   flex-direction: row;
   width: 80%;
@@ -236,24 +250,26 @@ img, embed, object, video {
   margin: auto;
 }
 
-.contactimages img {
+.contactimages a {
   position: relative;
   display: block;
-  width: 18%;
-  padding: 7%;
+  min-width: 96px;
+  max-width: 20%;
+  padding: 10%;
+  margin: auto;
 }
 
 .projects {
-    background-color: #F7C;
+  background-color: #4AD;
 }
 
-.projects ul{
+.projects ul {
   font-size: 1.1rem;
   margin: 16px 0;
   padding: 8px 16px;
 }
 
-.projects li{
+.projects li {
   margin: 16px 0;
 }
 
@@ -281,7 +297,7 @@ img, embed, object, video {
   top: 65%;
   left: 3%;
   width: 60%;
-  font-family: oswald;
+  font-family: Oswald, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.5rem;
   text-align: left;
   color: white;

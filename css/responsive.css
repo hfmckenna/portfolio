@@ -1,29 +1,57 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   html {
     font-size: 14px;
   }
   .main-nav {
-    width: 100%;
+    min-width: 100%;
     margin: auto;
-    max-width: 100%;
   }
-  .main-nav #navright {
-    margin-right: auto;
+  #hamburgerimg {
+    margin-left: 20px;
+    margin-top: 30px;
+    display: inline;
   }
-  .main-nav .links {
-    margin: auto;
+  .links {
+    display: none;
+  }
+  #menuclick {
+    display: none;
+  }
+  .mobile-nav {
+    font-family: Oswald;
     font-size: 1rem;
-    text-decoration-style: double;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 0;
+    visibility: hidden;
+    overflow: hidden;
+    display: inline;
+    max-width: 50%;
+    z-index: 999;
+    max-height: 0;
+    text-decoration: underline;
+    transition: max-height .1s ease-in-out;
+    background-color: #F5F1F1;
+  }
+  .main-nav input:checked~.mobile-nav {
+    visibility: visible;
+    max-height: 500px;
+    font-size: 2rem;
+  }
+  .main-nav input:checked~.sublinks {
+    visibility: visible;
+    max-height: 300px;
+    font-size: 2rem;
   }
   .main-nav .logo {
-    margin-right: 10%;
+    margin-right: auto;
   }
   .main-nav .logotext {
-    margin: auto;
-    font-size: 0.75rem;
+    margin-left: 10%;
+    font-size: 1rem;
   }
   .main-nav img {
-    min-width: 48px;
+    min-width: 64px;
   }
   .career {
     flex-direction: column;
@@ -49,14 +77,28 @@
     border: 0;
     flex-flow: wrap;
   }
-
   .audioimages img {
     width: 50%;
     height: 100%;
-    margin: auto;
+    margin: 0;
     min-width: 48px;
   }
-  
+  .audioimages :nth-child(1) {
+    order: 1;
+  }
+  .audioimages :nth-child(2) {
+    order: 2;
+  }
+  .audioimages :nth-child(3) {
+    order: 3;
+  }
+  .audioimages :nth-child(4) {
+    order: 4;
+  }
+  .audioimages :nth-child(5) {
+    order: -1;
+    width: 100%;
+  }
   .audiotext {
     position: relative;
     width: 100%;
@@ -65,37 +107,29 @@
     margin: auto;
     flex-direction: column;
   }
-  
   .bodytext {
     width: 100%;
     padding: 0;
   }
-  
   .socialproof {
     width: 100%;
     padding: 0;
-    font-family: Oswald;
   }
-
   .contactimages {
     flex-direction: column;
   }
-  
   .contactimages img {
     width: 50%;
     padding: 7%;
     margin: auto;
   }
-
   .footinfo {
     flex-direction: column;
   }
-  
   .footinfo img {
     height: 100%;
     width: 100%;
   }
-  
   .footinfo ul {
     top: 25%;
     left: 3%;
@@ -104,7 +138,7 @@
   }
 }
 
-@media screen and (min-width: 801px) and (max-width: 1199px) {
+@media screen and (min-width: 601px) and (max-width: 1199px) {
   html {
     font-size: 16px;
   }
@@ -116,10 +150,50 @@
     width: 100%;
     margin: auto;
   }
+  #hamburgerimg {
+    margin-left: 20px;
+    margin-top: 30px;
+    display: none;
+  }
+  #menuclick {
+    display: none;
+  }
+  .audiotext {
+    flex-direction: column;
+  }
+  .bodytext {
+    width: 95%;
+    padding: 5px;
+  }
+  .socialproof {
+    width: 95%;
+    padding: 5px;
+    font-family: Oswald;
+  }
+  .mobile-nav {
+    display: none;
+  }
+  .footinfo ul {
+    top: 55%;
+    left: 3%;
+    max-width: 70%;
+    font-size: 1rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.95);
+  }
 }
 
 @media screen and (min-width: 1200px) {
   html {
     font-size: 18px;
+  }
+  #hamburgerimg {
+    display: none;
+  }
+  #menuclick {
+    display: none;
+  }
+  .mobile-nav {
+    display: none;
   }
 }
