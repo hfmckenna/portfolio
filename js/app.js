@@ -7,7 +7,7 @@ Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
 }) // adds a prototype method to detect when an element is already playing
 
 document.getElementById('audioimages').addEventListener("click", function (e) {
-    if (e.target.getElementsByTagName('i')) {
+    if (e.target.localName === 'i') {
         if (e.target.nextElementSibling.playing) {
             e.target.classList.remove('fa-pause-circle');
             e.target.classList.add('fa-play-circle');
@@ -17,7 +17,6 @@ document.getElementById('audioimages').addEventListener("click", function (e) {
                 audio.pause();
                 if (e.target.nextElementSibling != audio) {
                     audio.currentTime = 0;
-                    console.log(audio)
                     audio.previousElementSibling.classList.remove('fa-pause-circle');
                     audio.previousElementSibling.classList.add('fa-play-circle');
                 }
@@ -26,5 +25,8 @@ document.getElementById('audioimages').addEventListener("click", function (e) {
             e.target.classList.add('fa-pause-circle');
             e.target.nextElementSibling.play();
         }
+    }
+    else {
+        e.stopPropagation();
     }
 });
