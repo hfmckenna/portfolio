@@ -303,26 +303,23 @@ video {
   flex-direction: row;
   width: 90%;
   height: 100%;
-  font-size: 12rem;
   display: flex;
   margin: auto;
 }
 
 .contactimages li {
-  padding: 32px;
+  padding: 24px;
   margin: auto;
 }
 
-.contactimages li:nth-child(1) i {
+.contactimages li i {
   color: #4AD;
+  font-size: 12rem;
+  transition: 400ms ease font-size;
 }
 
-.contactimages li:nth-child(2) i {
-  color: #4AD;
-}
-
-.contactimages li:nth-child(3) i {
-  color: #4AD;
+.contactimages li i:hover {
+  font-size: 11.5rem;
 }
 
 .projects {
