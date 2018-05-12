@@ -8,6 +8,8 @@
   <title>Hugh Francis McKenna | Content Manager & Developer</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
@@ -92,13 +94,28 @@
     </section>
     <section class="sound">
       <h2>Sound Engineering</h2>
-      <div class="audioimages">
-        <img src="img/raster/photos/tn_yokealbum.jpg" alt="">
-        <img src="img/raster/photos/tn_mugstar.jpg" alt="">
-        <img src="img/raster/photos/tn_eftmalbum.jpg" alt="">
-        <img src="img/raster/photos/tn_cardamonepedal.jpg" alt="">
-        <img src="img/raster/photos/gensunsflower.jpg" alt="">
-      </div>
+      <ul class="audioImages" id="audioimages">
+        <li>
+          <i class="fa fa-play-circle" id="yoke"></i>
+          <audio src="audio/bears.ogg" preload="none"></audio>
+        </li>
+        <li>
+          <i class="fa fa-play-circle" id="mugstar"></i>
+          <audio src="audio/mugstar.ogg" preload="none"></audio>
+        </li>
+        <li>
+          <i class="fa fa-play-circle" id="eftm"></i>
+          <audio src="audio/bigthink.ogg" preload="none"></audio>
+        </li>
+        <li>
+          <i class="fa fa-play-circle" id="joe"></i>
+          <audio src="audio/mercy.ogg" preload="none"></audio>
+        </li>
+        <li>
+          <i class="fa fa-play-circle" id="gen"></i>
+          <audio src="audio/darbals.ogg" preload="none"></audio>
+        </li>
+      </ul>
       <div class="audiotext">
         <div class="bodytext">
           <p>I'm an avid maker, creating custom guitar pedals for over 10 years and previously working as a sound engineer.</p>
@@ -163,6 +180,6 @@
       <img src="img/raster/photos/market.jpg" alt="Granby Market">
     </footer>
   </main>
+  <script type="text/javascript" src="js/app.js"></script>
 </body>
-
 </html>

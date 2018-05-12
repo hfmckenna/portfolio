@@ -204,7 +204,7 @@ video {
   margin: auto;
 }
 
-.audioimages {
+.audioImages {
   position: relative;
   flex-direction: row;
   width: 100%;
@@ -214,10 +214,54 @@ video {
   margin: auto;
 }
 
-.audioimages img {
-  width: 20%;
-  height: 100%;
-  margin: auto;
+.audioImages li {
+  width: 225px;
+  height: 225px;
+  margin: 10px auto;
+  background-size: cover;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
+.audioImages li i {
+  cursor: pointer;
+  font-size: 8rem;
+  transition: 200ms ease-in-out all;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+}
+
+.audioImages li i.fa-play-circle {
+  color: #FF75CA;
+}
+
+.audioImages li i.fa-pause-circle {
+  color: #4AD;
+}
+
+.audioImages li:nth-child(1) {
+  background-image: url("../img/raster/photos/tn_yokealbum.jpg");
+}
+
+.audioImages li:nth-child(2) {
+  background-image: url("../img/raster/photos/tn_mugstar.jpg");
+}
+
+.audioImages li:nth-child(3) {
+  background-image: url("../img/raster/photos/tn_eftmalbum.jpg");
+}
+
+.audioImages li:nth-child(4) {
+  background-image: url("../img/raster/photos/tn_cardamonepedal.jpg");
+}
+
+.audioImages li:nth-child(5) {
+  background-image: url("../img/raster/photos/gensunsflower.jpg");
 }
 
 .audiotext {
