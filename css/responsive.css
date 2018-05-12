@@ -76,15 +76,17 @@
     width: 100%;
     padding: 5px;
   }
-  .socialproof {
-    width: 100%;
-    padding: 5px;
-  }
   .contact {
     flex-direction: column;
   }
   .contactimages {
     flex-direction: column;
+  }
+  .contactimages li i {
+    font-size: 6rem;
+  }
+  .contactimages li i:hover {
+    font-size: 6.5rem;
   }
   .footinfo {
     flex-direction: column;
@@ -119,11 +121,6 @@
   .bodytext {
     width: 95%;
     padding: 5px;
-  }
-  .socialproof {
-    width: 95%;
-    padding: 5px;
-    font-family: Oswald;
   }
   .footinfo ul {
     top: 55%;
