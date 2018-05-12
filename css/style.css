@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:600');
+@import url('https://fonts.googleapis.com/css?family=Oswald:600|Lato');
 body,
 html {
   margin: 0;
@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:  Lato, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #F5F1F1;
 }
 
@@ -52,7 +52,7 @@ ul {
 }
 
 main {
-  max-width: 1280px;
+  max-width: 1440px;
   margin: auto;
 }
 
@@ -148,6 +148,8 @@ video {
 .description {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 2.5rem;
+  width: 80%;
+  margin: auto;
 }
 
 .career {
@@ -157,36 +159,67 @@ video {
   height: 100%;
   display: flex;
   margin: auto;
+}
+
+.career > article {
+  display: flex;
+  flex-direction: row;
+}
+
+.career > article > div {
+  width: 50%;
+  margin: 8px;
+  border: 1px solid;
+  padding: 4px;
+}
+
+.career > article > div > h4 {
+  margin-bottom: 12px;
+  text-decoration: underline;
+}
+
+.career > article > div > ul > li {
+  margin-bottom: 12px;
+}
+
+.contact {
+  position: relative;
+  flex-direction: row;
+  width: 60%;
+  height: 100%;
+  display: flex;
   padding: 16px;
   border: 32px;
+  margin: 32px auto;
 }
 
-.dev {
-  width: 100%;
-  background-color: #4AD;
+.contactimages {
+  position: relative;
+  flex-direction: row;
+  width: 90%;
+  height: 100%;
+  display: flex;
   margin: auto;
 }
 
-.dev p {
-  margin: 8px;
-  padding: 4px;
-}
-
-.contentroles {
-  width: 100%;
+.contactimages li {
+  padding: 24px;
   margin: auto;
-  margin-top: 30px;
-  background-color: #E46;
 }
 
-.contentroles p {
-  margin: 8px;
-  padding: 4px;
+.contactimages li i {
+  color: #4AD;
+  font-size: 12rem;
+  transition: 100ms ease font-size;
+}
+
+.contactimages li i:hover {
+  font-size: 11.8rem;
 }
 
 .sound {
   position: relative;
-  width: 100%;
+  width: 80%;
   margin: auto;
 }
 
@@ -263,45 +296,10 @@ video {
   padding: 16px;
 }
 
-.contact {
-  position: relative;
-  flex-direction: row;
-  width: 80%;
-  height: 100%;
-  display: flex;
-  padding: 16px;
-  border: 32px;
-  margin: 32px auto;
-}
-
-.contactimages {
-  position: relative;
-  flex-direction: row;
-  width: 90%;
-  height: 100%;
-  display: flex;
-  margin: auto;
-}
-
-.contactimages li {
-  padding: 24px;
-  margin: auto;
-}
-
-.contactimages li i {
-  color: #4AD;
-  font-size: 12rem;
-  transition: 400ms ease font-size;
-}
-
-.contactimages li i:hover {
-  font-size: 11.5rem;
-}
-
 .footinfo {
   position: relative;
   flex-direction: row;
-  width: 100%;
+  width: 80%;
   height: 100%;
   display: flex;
   padding: 0;

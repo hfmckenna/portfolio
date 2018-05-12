@@ -41,13 +41,14 @@
     padding: 0;
     border: 0;
   }
-  .contentroles {
-    width: 100%;
-    margin-top: 15px;
+  .career > article {
+    flex-direction: column;
   }
-  .dev {
-    width: 100%;
+  .career > article > div {
+    width: 90%;
     margin: auto;
+    border: 0px solid;
+    padding: 1px;
   }
   .sound {
     position: relative;
