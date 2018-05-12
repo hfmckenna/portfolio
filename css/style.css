@@ -301,21 +301,28 @@ video {
 .contactimages {
   position: relative;
   flex-direction: row;
-  width: 80%;
+  width: 90%;
   height: 100%;
+  font-size: 12rem;
   display: flex;
-  padding: 16px;
-  border: 32px;
   margin: auto;
 }
 
-.contactimages a {
-  position: relative;
-  display: block;
-  min-width: 96px;
-  max-width: 20%;
-  padding: 10%;
+.contactimages li {
+  padding: 32px;
   margin: auto;
+}
+
+.contactimages li:nth-child(1) i {
+  color: #4AD;
+}
+
+.contactimages li:nth-child(2) i {
+  color: #4AD;
+}
+
+.contactimages li:nth-child(3) i {
+  color: #4AD;
 }
 
 .projects {

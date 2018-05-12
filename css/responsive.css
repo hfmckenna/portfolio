@@ -83,11 +83,6 @@
   .contactimages {
     flex-direction: column;
   }
-  .contactimages img {
-    width: 50%;
-    padding: 7%;
-    margin: auto;
-  }
   .footinfo {
     flex-direction: column;
   }

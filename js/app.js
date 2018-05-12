@@ -1,10 +1,10 @@
-const allAudio = document.getElementsByTagName('audio');
+const allAudio = document.getElementsByTagName('audio'); //get all the audio elements for play/pause
 
 Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
     get: function () {
         return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
     }
-})
+}) // adds a prototype method to detect when an element is already playing
 
 document.getElementById('audioimages').addEventListener("click", function (e) {
     if (e.target.getElementsByTagName('i')) {
