@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!--onload starts Geolocation function-->
+<body onload="geoFindMe()">
+<!--separate rounded divs allows for the visual spacing between columns-->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 text-center p-4">
+      <div class="bkg rounded border-0" id="tempOut">...</div>
+    </div>
+    <div class="col-md-6 text-center p-4">
+      <div class="bkg rounded border-0" id="iconOut">...</div>  
+    </div>
+</div>
+<!--onClick triggers calculation of different temperatures-->
+  <div class="row mb-3 justify-content-center align-items-center">
+    <div class="col-md-3 text-center"><button type="button" class="btn btn-primary btn-default" onclick="tempCelc()">Centigrade</button></div>    
+    <div class="col-md-3 text-center"><button type="button" class="btn btn-secondary" onclick="tempFahr()">Fahrenheit</button></div>
+  </div>
+<!--output for weather description-->
+<div class="row">
+  <div class="col-md-12 text-capitalize text-center p-2"><div class="rounded border-0" id="detailsOut">...</div></div>
+</div>
+<!--output for location-->
+  <div class="row">
+  <div class="col-md-12 text-capitalize text-center p-2" ><div class="rounded border-0" id="locationOut">...</div></div>
+    </div>
+  </div>
+
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Amiko);
+@import url(https://fonts.googleapis.com/css?family=Kreon);
+/*font spacing could be improved for mobile */
+body {
+    font-family: Amiko;
+    background-color: #053764;
+    min-height: 100%;
+    letter-spacing: -0.1em;
+}
+
+.bg {
+    background-image: url("https://lfo.agency/projects/wiki/images/wiki.svg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    height: 50vmax;
+}
+
+#entryform {
+    width: 90%;
+    margin: 0 auto 0;
+    text-align: center;
+}
+
+input[type="search"] {
+    margin: auto;
+    border: 2px groove #08477f;
+    font-family: Kreon;
+    font-size: 1.7vmax;
+    -webkit-appearance: none;
+    transition: border 1s ease;
+    width: 60%;
+    opacity: 0.8;
+}
+
+input[type="submit"] {
+    margin: auto;
+    border: 2px groove #08477f;
+    font-family: Kreon;
+    font-size: 1.8vmax;
+    -webkit-appearance: none;
+    transition: border 1s ease;
+    width: auto;
+    background-color: #abc;
+    padding: 0.3%;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: AF750B;
+}
+
+input[type="search"]:hover,
+input[type="submit"]:hover {
+    border: 2px solid #fff;
+    opacity: 1;
+}
+
+table {
+    font-size: 1.4vmax;
+    margin: 3% auto 0 auto;
+    width: 90%;
+}
+/*much styling is added dynamically */
+td {
+    padding: 0.3%;
+    opacity: 0;
+    border: 2px groove #041e37;
+    background: #fff;
+    -webkit-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+}
+
+    td.in {
+        opacity: 0.94;
+    }

@@ -1,0 +1,13 @@
+html, body {  
+  width: 100%;
+  height: 100%;
+}
+
+.calcBkg {
+    background-image: url("http://lfo.agency/projects/calculator/images/calc_bkg.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 20%;
+  width: 100%;
+  height: 100%;
+}

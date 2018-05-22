@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Orienta);
+
+.calcBkg {
+  	background-image: url("https://lfo.agency/projects/calculator/images/calc_bkg.svg");
+	background-repeat: no-repeat;
+	background-size: 345px 684px;
+  height: 684px;
+  width: 344px;
+border-radius: 2%;
+
+  box-shadow: 2px 2px 10px black;
+}
+
+table{
+  position: relative;
+  left:17px;
+  top:291px;
+}
+.tableBtns {
+  height: 69px;
+  width: 69px;
+  font-family: Orienta;
+  border-radius: 5%;
+  border: 1px solid black;
+}
+
+.functionBtns{
+  background-color:#B35C14;
+}
+.numBtns{
+  background-color:#3C473F;
+  color:white;
+  text-shadow: -1px 1px #000, 1px -1px #000;
+}
+.calcBtns{
+  background-color:#D1D1D1;
+}
+
+.btnShape {
+ background-color:rgba(123,123,123,0.1);
+ border-radius: 40%;
+ display: inline-block;
+ background-size: 69px;
+ width: 69px;
+ height: 69px;
+ font-size: 36px;
+ text-align: center;
+ vertical-align: baseline;
+ line-height: 65px;
+}
