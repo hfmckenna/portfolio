@@ -298,6 +298,7 @@ video {
 
 .footinfo {
   position: relative;
+  display: flex;
   flex-direction: row;
   width: 80%;
   height: 100%;
